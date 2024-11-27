@@ -112,7 +112,7 @@ VSTPlugin.search(s,"D:/tee/VST" );
 
 
 // ------------
-// a) Filter white noise through a VST plugin
+
 (
 Ndef(\test, \vst -> { VSTPlugin.ar(nil, 2) }).play;
 
