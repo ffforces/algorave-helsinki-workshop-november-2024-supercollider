@@ -146,7 +146,11 @@ Pdef(\auto, Pbind(
 Pdef(\auto).stop;
 Pdef(\auto).play;
 
+// you can use the same Ndef.filter method with VSTs!
 
+Ndef(\test).filter(1,{arg in; JPverb.ar(in) });
+
+Ndef(\test).filter(2,{arg in; JPverb.ar(in) });
 
 
 
