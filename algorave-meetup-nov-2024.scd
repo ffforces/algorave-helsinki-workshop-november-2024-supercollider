@@ -52,8 +52,7 @@ Ndef(\a,{SinOsc.kr(SinOsc.kr(1).range(50,160), mul:0.2)});
 
 
 (
-Ndef(\a,{SinOsc.ar(SinOsc.ar(1).range(50,160), mul:0.2)}
-);
+Ndef(\a,{SinOsc.ar(SinOsc.ar(1).range(50,160), mul:0.2)});
 )
 
 
