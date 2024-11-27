@@ -122,7 +122,7 @@ Ndef(\test, \vst -> { VSTPlugin.ar(nil, 2) }).play;
 ~fx.editor; // open the VST plugin editor
 ~fx.gui;
 
-// you can save your presets my this syntax
+// you can save your presets by this syntax
 
 ~fx.savePreset("dx7-01");
 ~fx.loadPreset("dx7-01");
